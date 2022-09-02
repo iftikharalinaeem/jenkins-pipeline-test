@@ -31,8 +31,8 @@ class HomeController extends Controller
      *
      * @return int
      */
-    public function sum(int $num1, int $num2)
+    public function sum(int $num11, int $num22)
     {
-        return $num1+$num2;
+        return $num11+$num22;
     }
 }
